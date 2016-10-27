@@ -7,6 +7,10 @@ body{
   padding: 10px;
   border-bottom: 5px dotted #aa88dd;
   border-width: thick; 
+  background-image: url("https://anonymouspics.files.wordpress.com/2010/06/modern-art-germany.jpg");
+  background-repeat:repeat-x;
+  background-position: left top;
+  background-attachment:fixed;
 }
 
 h1, h2 {
@@ -28,8 +32,6 @@ p{
  max-height: 25px;
  overflow: hidden;
  border-radius: 15px;
--moz-border-radius: 15px;
--webkit-border-radius: 15px;
 }
 
 nav {
@@ -55,11 +57,13 @@ ul {
  padding: 10px;
  list-style: inside circle;
  
+ 
   
 }
 
 li{
   margin: 5px 0px 5px 0px;
+  
   
 }
 
