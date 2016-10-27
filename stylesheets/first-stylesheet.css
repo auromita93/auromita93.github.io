@@ -1,29 +1,24 @@
-html{
-  
-}
-
-head{
-  
-}
+/* First Stylesheet */
 
 body{
-  
+  font-family: Arial, Verdana, sans-serif;
+  background-color: darkcyan;
+  padding: 10px;
 }
 
 h1, h2 {
- font: Georgia, serif;
-  
+  color: #aa434b; 
+  background-color: gray;
 }
 
 p{
  font-family: "Comic Sans MS", cursive, sans-serif;
- align: center;
-  
+ font-size: 2.1em;
+ background-color: #aa3843;
 }
 
 nav{
- align-content: center; 
-
+ align-items: center; 
 }
 
 a{
