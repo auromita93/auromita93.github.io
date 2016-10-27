@@ -1,39 +1,54 @@
 /* First Stylesheet */
 
 body{
+  display: block;
   font-family: Arial, Verdana, sans-serif;
   background-color: darkcyan;
   padding: 10px;
 }
 
 h1, h2 {
+  font-family: "Comic Sans MS", sans-serif, cursive;
   color: #aa434b; 
   background-color: gray;
+  text-transform: uppercase;
+  text-indent: -9999px;
+  
 }
 
 p{
  font-family: "Comic Sans MS", cursive, sans-serif;
  font-size: 2.1em;
- background-color: #aa3843;
-}
-
-nav{
- align-items: center; 
+ background-color: bisque;
+ text-align: justify;
 }
 
 a{
+ color: #dd3a7b;
+ text-decoration: none;
   
 }
 
 a:hover{
+ color: darkviolet;
   
 }
 
-main{
+ul {
   
 }
 
-article{
+li{
   
+}
 
+img {
+  
+}
+
+
+
+
+footer{
+  font-style: italic;
 }
