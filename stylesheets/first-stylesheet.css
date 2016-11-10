@@ -9,7 +9,7 @@ body{
 }
 
 header{
-  background-color: black;
+ background-color: rgb(31, 8, 0);
   padding: 4rem;  
 }
 
@@ -26,8 +26,7 @@ h1, h2 {
   line-height: 1.2;
 }
 
-p{
-
+p {
  font-size: 0.8em;
  text-align: center;
  min-height: 10px;
@@ -53,6 +52,7 @@ ul {
 }
 
 li{
+  position: relative;
   margin: 5px 0px 5px 0px;  
 }
 
@@ -79,7 +79,7 @@ th{
 blockquote{
   font-size: 15px;
   color: white;
-  background-color: #dd33dc;
+  background-color: black;
 }
 
 footer{
