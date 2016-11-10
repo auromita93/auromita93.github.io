@@ -1,28 +1,24 @@
 /* First Stylesheet */
 
+
 body{
   display: block;
-  font-family: Arial, Verdana, sans-serif;
-  background-color: darkgray;
-  padding: 1em 2em 3em;
-  border-bottom: 5px dotted #aa88dd;
-  border-width: thick; 
-  background-image: url("https://anonymouspics.files.wordpress.com/2010/06/modern-art-germany.jpg");
-  background-repeat:repeat-x;
-  background-position: left top;
-  background-attachment:fixed;
-  line-height: 2.5;
-  max-width: 1000px;
+  font-family: 'Patrick Hand', cursive;
+  background-image: url("http://www.hdwallpapersnews.com/wp-content/uploads/2015/02/mountain-hd-wallpapers-for-mobile.jpg");
+  color: white;
 }
+
+header{
+  background-color: black;
+  padding: 4rem;  
+}
+
 h1{
-  margin-top: 0.9em;
+  float: left;
+  clear: both;
 }
 
 h1, h2 {
-  background-color:#ee3e80;
-  font-family: "Comic Sans MS", sans-serif, cursive;
-  color: #aa434b; 
-  text-transform: uppercase;
   margin: 5px;
   padding-bottom: 2px;
   text-align: center; 
@@ -31,9 +27,8 @@ h1, h2 {
 }
 
 p{
- font-family: "Comic Sans MS", Verdana, sans-serif;
+
  font-size: 0.8em;
- background-color: bisque;
  text-align: center;
  min-height: 10px;
  max-height: 25px;
@@ -43,22 +38,14 @@ p{
 
 nav {
  text-align: center;
+ float: right;
 }
 
 a{
- color: #dd3a7b;
  text-decoration: none; 
  cursor: crosshair;
 }
 
-a:hover{
- color: darkviolet;
- text-decoration: underline;
-}
-
-a:active{
- color: aqua;
-}
 
 ul {
  padding: 10px;
@@ -69,6 +56,9 @@ li{
   margin: 5px 0px 5px 0px;  
 }
 
+figure figcaption{
+  color: darkslategray;
+}
 img {
   border-radius: 50%;
 }
@@ -87,7 +77,6 @@ th{
 }
 
 blockquote{
-  font-family: cursive, Verdana, sans-serif;
   font-size: 15px;
   color: white;
   background-color: #dd33dc;
@@ -95,4 +84,17 @@ blockquote{
 
 footer{
   font-style: italic;
+  background-color: black;
+  padding: 6.5rem;
+ 
 }
+footer p{
+  position: relative;
+  left: 1.5rem;
+}
+.icons{
+  float: right;
+  position: relative;
+  top: 0.5rem;
+}
+
