@@ -1,4 +1,5 @@
 /* First Stylesheet */
+/*Updated portfolio by using transformation property on main h1, used the nth child to add background color to every alternate list, and added a transition property to the navigation portion.*/
 
 body{
   display: block;
