@@ -1,6 +1,5 @@
 /* First Stylesheet */
 
-
 body{
   display: block;
   font-family: 'Patrick Hand', cursive;
@@ -10,12 +9,10 @@ body{
 
 header{
  background-color: rgb(31, 8, 0);
-  padding: 4rem;  
+ padding: 4.5rem;  
 }
 
-
-
-h1, h2 {
+h1{
   margin: 5px;
   padding-bottom: 2px;
   text-align: center; 
@@ -23,7 +20,11 @@ h1, h2 {
   line-height: 1.2;
   float: left;
   clear: both;
+  border: 10px solid darkslateblue;
+  border-radius: 60%;
+  transform: rotate(-4deg);
 }
+
 
 p {
  font-size: 0.8em;
@@ -37,10 +38,18 @@ p {
 nav {
  text-align: center;
  float: right;
+ transition: width 2s, height 3s;
+ border: 10px solid darkslateblue;
+ border-radius: 60%
+}
+nav a{
+  color: white;
+}
+nav:hover{
+  width: 200px;
 }
 
 a{
- text-decoration: none; 
  cursor: crosshair;
 }
 
@@ -55,9 +64,20 @@ li{
   margin: 5px 0 5px 0;  
 }
 
+li a{
+  color:white;
+}
+
+li:nth-child(odd){
+  font-weight: bold;
+  background-color: darkslateblue;
+  opacity: 0.75;
+}
+
 figure figcaption{
   color: darkslategray;
 }
+
 img {
   border-radius: 50%;
 }
